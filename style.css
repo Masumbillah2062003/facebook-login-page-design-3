@@ -73,10 +73,11 @@ nav .email,.password{
     nav{
         height: 190px;
         flex-direction: column;
+    
     }
     nav .logo img{
         width: 100px;
-        margin-left: 105px;
+        margin-left: 130px;
         margin-top: 10px;
         border: 1px solid #070092;
         background-color: #302aab;
@@ -93,12 +94,12 @@ nav .email,.password{
         font-size: 10px;
     }
     .nav-form .email input{
-        height:15px;
-        width: 150px;
+        height:20px;
+        max-width: 200px;
     }
     .nav-form .password input{
-        height: 15px;
-        width: 150px;
+        height: 20px;
+        max-width: 200px;
     }
     .nav-form .password a{
         font-size: 10px;
@@ -107,7 +108,7 @@ nav .email,.password{
         font-size: 12px;
         text-align: center;
         margin-top: 10px;
-        margin-left: 40px;
+        margin-left: 75px;
     }
 }
 
@@ -248,10 +249,10 @@ nav .email,.password{
         margin-left: 5px;
     }
     .mobaile{
-        width: 75%;
+        width: 85%;
     }
     .pass{
-        width: 75%;
+        width: 85%;
     }
     .form-create .brt{
         font-size: 15px;
@@ -325,9 +326,6 @@ i{
     font-size: 20px;
 }
 @media screen and (max-width:650px){
-    footer{
-        flex-direction: colum;
-    }
     footer .english{
         margin-left: 10px;
         flex-direction: column;
