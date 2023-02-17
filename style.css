@@ -71,7 +71,7 @@ nav .email,.password{
 }
 @media screen and (max-width:650px){
     nav{
-        height: 190px;
+        height: 220px;
         flex-direction: column;
     
     }
@@ -274,7 +274,7 @@ nav .email,.password{
         width: 90%;
     }
     .para a button{
-        margin-left: 25px;
+        margin-left: 40px;
         font-size: 18px;
         padding: 7px 65px;
     }
